@@ -1,0 +1,6 @@
+month,revenue,expenses,inflow,outflow,profit_margin,category,category_amount,customer_name,customer_revenue,product,quantity,day,transactions
+Jan,10000,8000,,,20,Electronics,1100,John,10000,Laptop,30,,
+Feb,11700,8600,,,26,Furniture,700,Alice,8500,Chair,45,,
+Mar,12500,9000,,,28,Clothing,460,Ravi,7400,T-shirt,60,,
+Apr,15300,9700,,,37,Stationery,250,Maria,6200,Notebook,75,,
+May,16500,10300,,,38,Others,300,Liu,5600,Mouse,40,,

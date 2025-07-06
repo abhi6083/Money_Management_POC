@@ -1,0 +1,8 @@
+month,revenue,expenses,inflow,outflow,profit_margin,category,category_amount,customer_name,customer_revenue,product,quantity,day,transactions
+Jan,,,10000,8000,,,,,,,,Mon,50
+Feb,,,12000,8600,,,,,,,,Tue,55
+Mar,,,14000,9100,,,,,,,,Wed,52
+Apr,,,15000,9300,,,,,,,,Thu,60
+May,,,16000,10200,,,,,,,,Fri,65
+,,,,,,,,,,,,Sat,58
+,,,,,,,,,,,,Sun,62
