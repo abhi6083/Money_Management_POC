@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Upload CSV - SmartBiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container py-5">
+  <h2 class="mb-4 text-center">📤 Upload Your Business Data</h2>
+
+  <div class="row">
+    <div class="col-md-6">
+      <form action="/upload-business" method="POST" enctype="multipart/form-data" class="shadow p-4 bg-white rounded mb-4">
+        <h5>📊 Business Insights</h5>
+        <input class="form-control mb-2" type="file" name="file" accept=".csv" required />
+        <button class="btn btn-primary w-100" type="submit">Upload Business CSV</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <form action="/upload-account" method="POST" enctype="multipart/form-data" class="shadow p-4 bg-white rounded mb-4">
+        <h5>💳 Account Overview</h5>
+        <input class="form-control mb-2" type="file" name="account_csv" accept=".csv" required />
+        <button class="btn btn-success w-100" type="submit">Upload Account CSV</button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
